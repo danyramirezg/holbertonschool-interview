@@ -20,9 +20,9 @@ def canUnlockAll(boxes):
         if number < len_boxes and unlock[number] == 0:
             unlock[number] = 1
 
-        for j in boxes[number]:
-            if j not in numbers:
-                numbers.append(j)
+            for j in boxes[number]:
+                if j not in numbers:
+                    numbers.append(j)
 
     if 0 in unlock:
         return False
