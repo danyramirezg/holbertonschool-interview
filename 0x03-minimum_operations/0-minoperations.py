@@ -2,7 +2,8 @@
 
 
 def minOperations(n):
-    """text editor can execute only two operations in this file: Copy All and Paste.
+    """text editor can execute only two operations in this file:
+    Copy All and Paste.
 
     Args:
         n (int): write a method that calculates the fewest number
