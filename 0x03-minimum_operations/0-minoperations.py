@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Interview preparation
+    """
 
 
 def minOperations(n):
