@@ -23,4 +23,4 @@
 ---
 
 ## Author
-* Edison Isaza - [peluza](https://github.com/peluza)
+* Daniela Ramirez G - [danyramirezg](https://github.com/danyramirezg)
