@@ -1,0 +1,31 @@
+#include "palindrome.h"
+
+/**
+ * is_palindrome - checks if a unsigned integer is a palindrome.
+ * @n:  is the number to be checked
+ *
+ * Return: 1 if n is a palindrome, and 0 otherwise
+ */
+
+int is_palindrome(unsigned long n)
+{
+
+	unsigned long mod, reverse = 0;
+
+	if (n < 10)
+		return (1);
+
+	while (n != 0)
+	{
+		mod = n % 10;
+		reverse = (reverse * 10) + mod;
+		n /= 10;
+	}
+
+	if (reverse == n)
+		return (1);
+	else
+		return (0);
+
+}
+
