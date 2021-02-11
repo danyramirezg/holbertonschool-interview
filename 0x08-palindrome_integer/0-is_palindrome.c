@@ -10,16 +10,16 @@
 int is_palindrome(unsigned long n)
 {
 
-	unsigned long mod, reverse = 0;
+	unsigned long num = n, mod, reverse = 0;
 
 	if (n < 10)
 		return (1);
 
-	while (n != 0)
+	while (num != 0)
 	{
-		mod = n % 10;
+		mod = num % 10;
 		reverse = (reverse * 10) + mod;
-		n /= 10;
+		num = num / 10;
 	}
 
 	return (n == reverse);
