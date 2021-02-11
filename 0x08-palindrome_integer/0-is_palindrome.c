@@ -22,10 +22,6 @@ int is_palindrome(unsigned long n)
 		n /= 10;
 	}
 
-	if (reverse == n)
-		return (1);
-	else
-		return (0);
-
+	return (n == reverse);
 }
 
